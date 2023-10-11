@@ -3,7 +3,7 @@
     <div class="min-h-screen w-full bg-[#0A0C1C] flex flex-col py-20 px-6 md:items-center md:justify-center ">
         <div class="max-md:w-full bg-[#1B1937] rounded-lg md:flex md:flex-row-reverse max-w-[1100px]">
             <div class="z-20 opacity-75 relative image md:w-[50%]">
-                <img class="rounded-lg  md:hidden object-cover w-full" src="src/assets/image-header-mobile.jpg" alt="">
+                <img class="rounded-lg  md:hidden object-cover w-full" src="./assets/image-header-mobile.jpg" alt="">
                 <div class="max-sm:hidden img rounded-lg"></div>
             </div>
             <div class="md:flex-1 md:pt-16 md:px-14 mt-10">
@@ -77,7 +77,7 @@ p {
 .img {
     width: 100%;
     height: 100%;
-    background-image: url('src/assets/image-header-desktop.jpg');
+    background-image: url('./assets/image-header-desktop.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     object-fit: cover;
